@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blogger</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+    <div class="container-fluid" id="main-nav">
+        <div id="topper-nav">
+            <div class="row bg-dark">
+                <div class="col-md-4">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-brands text-light fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-brands text-light fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-brands text-light fa-telegram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-brands fa-whatsapp text-light"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- left-col -->
+
+                <div class="col-md-4"></div><!-- mid-col -->
+
+                <div class="col-md-4 text-end">
+                    <a href="#" class="text-light log-out"><small>LOG IN</small></a>
+                </div><!-- right-col -->
+            </div>
+        </div><!-- topper-nav -->
+    </div><!-- /.container-fluid topper-nav -->
+
+    <div class="container" id="logo-section-contaner">
+        <section id="logo-section">
+            <div class="row mt-3">
+                <div class="col-4">
+                    <div class="logo">
+                        <a href="#" class="text-decoration-none text-dark">
+                            <h1 class="logo-text text-docoration-underline">blo<span class="text-primary">gg</span>er</h1>
+                        </a>
+                    </div>
+                </div><!-- righ-col -->
+                <div class="col-8">
+                    <div class="add">
+                        <div class="card">
+                            <img src="img/ad1.png" alt="advertisment">
+                        </div>
+                    </div>
+                </div><!-- left-col -->
+            </div>
+        </section>
+    </div><!-- /.container -- logo setion -->
+
+    <div class="container-fluid" id="page-nav">
+        <div class="page-nav">
+            <div class="row bg-dark mt-3">
+                <div class="col-12">
+                    <ul class="nav justify-content-center main-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link text-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Categories</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.container -- nav-bar -->
+
+    <div class="container-fluid bg-dark">
+        <div class="primary-nav">
+            <div class="row">
+                <div class="col-12">
+                    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+                        <div class="bg-dark p-4">
+                            <div class="logo">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <h1 class="logo-text text-docoration-underline">blo<span class="text-primary">gg</span>er</h1>
+                                </a>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="links">
+                                        <ul>
+                                            <li>
+                                                <a class="text-primary" href="#">login</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">About</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Contact</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Categories</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-12">
+                                    <div class="card socil-card border-0 text-center">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="fa-brands text-light fa-facebook"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands text-light fa-whatsapp"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands text-light fa-telegram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands text-light fa-youtube"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div><!--/.container-fluid primary-nav -->
+
+    <div class="container-fluid">
+        <div class="row mt-3 mb-3 cards-group-carosel">
+            <div class="col-sm-12">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img data-original="img/img6.jpg" class="d-block w-100 lazy" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img data-original="img/img2.jpg" class="d-block w-100 lazy" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img data-original="img/img3.jpg" class="d-block w-100 lazy" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div><!-- cards-group-carosel -->
+    <div class="topic-cards-group">
+        <div class="row mt-2 p-2">
+
+            <div class="col-sm-12 col-md-6 ps-1 pe-0">
+                <div class="card text-light">
+                    <img data-original="img/img1.jpg" class="card-img-top lazy" alt="...">
+                    <div class="card-img-overlay text-background">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text text-end"><small>Read More</small></p>
+                    </div>
+                </div>
+            </div><!-- / col-lft -->
+
+            <div class="col-sm-12 col-md-6 ps-0 pe-1">
+
+                <div class="row">
+                    <div class="card-group">
+                        <div class="card text-light">
+                            <img data-original="img/img2.jpg" class="card-img-top lazy" alt="...">
+                            <div class="card-img-overlay text-background">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text text-end"><small>Read More</small></p>
+                            </div>
+                        </div>
+                        <div class="card text-light">
+                            <img data-original="img/img3.jpg" class="card-img-top lazy" alt="...">
+                            <div class="card-img-overlay text-background">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text text-end"><small>Read More</small></p>
+                            </div>
+                        </div>
+                    </div><!-- card-group-sub-group -->
+                </div>
+
+                <div class="row">
+                    <div class="card-group">
+                        <div class="card text-light">
+                            <img data-original="img/img4.jpg" class="card-img-top lazy" alt="...">
+                            <div class="card-img-overlay text-background">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text text-end"><small>Read More</small></p>
+                            </div>
+                        </div>
+                        <div class="card text-light">
+                            <img data-original="img/img5.jpg" class="card-img-top lazy" alt="...">
+                            <div class="card-img-overlay text-background">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text text-end"><small>Read More</small></p>
+                            </div>
+                        </div>
+                    </div><!-- card-group-sub-group -->
+                </div>
+
+            </div><!-- /col-right  -->
+
+        </div>
+    </div>
+</div><!-- /.container cards-group -->
+
+<div class="container">
+    <div class="row mt-4">
+
+        <div class="col-sm-12 mb-3" id="sub-category">
+            <div class="sub-category">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item shadow">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                               Category
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body. </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-8">
+
+            <div class="row row-cols-1 row-cols-md-2 g-4 mb-3">
+                <div class="col">
+                    <div class="card">
+                    <img data-original="img/img1.jpg" class="card-img-top lazy" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                    <img data-original="img/img2.jpg" class="card-img-top lazy" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                    <img data-original="img/img3.jpg" class="card-img-top lazy" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img data-original="img/img4.jpg" class="card-img-top lazy" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img data-original="img/img1.jpg" class="img-fluid rounded-start lazy" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text text-end"><small class="text-body-secondary"><a class="text-dark" href="#"><i>Read More</i></a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img data-original="img/img2.jpg" class="img-fluid rounded-start lazy" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text text-end"><small class="text-body-secondary"><a class="text-dark" href="#"><i>Read More</i></a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img data-original="img/img3.jpg" class="img-fluid rounded-start lazy" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text text-end"><small class="text-body-secondary"><a class="text-dark" href="#"><i>Read More</i></a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img data-original="img/img4.jpg" class="img-fluid rounded-start lazy" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text text-end"><small class="text-body-secondary"><a class="text-dark" href="#"><i>Read More</i></a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img data-original="img/img5.jpg" class="img-fluid rounded-start lazy" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text text-end"><small class="text-body-secondary"><a class="text-dark" href="#"><i>Read More</i></a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img data-original="img/img6.jpg" class="img-fluid rounded-start lazy" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text text-end"><small class="text-body-secondary"><a class="text-dark" href="#"><i>Read More</i></a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- col- left -->
+
+        <div class="col-4 category">
+            <div class="sticky-top">
+                <ul class="list-group mt-2">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <form>
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <input type="text" class="form-control border-primary" placeholder="Search">
+                            </div>
+                        </form>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        A list item
+                        <span class="badge bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        A second list item
+                        <span class="badge bg-primary rounded-pill">2</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        A third list item
+                        <span class="badge bg-primary rounded-pill">1</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        A third list item
+                        <span class="badge bg-primary rounded-pill">1</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        A third list item
+                        <span class="badge bg-primary rounded-pill">1</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        A third list item
+                        <span class="badge bg-primary rounded-pill">1</span>
+                    </li>
+                </ul>
+
+                <div class="advertise mt-1">
+                    <div class="card">
+                        <img src="img/ad2.jpg" alt="advertise">
+                    </div>
+                </div>
+            </div>
+        </div><!-- col-right-catagory -->
+
+    </div>
+
+            <div class="row mt-5">
+                <div class="col-3 m-auto">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div><!-- pagination -->
+</div>
+
+    <div class="container-fluid">
+
+        <div class="top-footer mt-3">
+            <div class="row bg-dark">
+                <div class="col-sm-6 col-md-3 m-auto p-1">
+                    <div class="card bg-dark border-0 text-light text-start p-4">
+                        <hr class="text-light">
+                        <h5 class="">Newsletter Subscription</h4>
+                        <div class="subscription-boy mt-2">
+                            <form>
+                                <input type="text" class="form-control form-control-sm col-12" placeholder="Email">
+                                <button class="btn btn-sm btn-danger col-12 mt-1" type="button">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 m-auto p-1">
+                    <div class="card bg-dark border-0 text-light text-start p-4">
+                        <h4 class="text-uppercase">Follow Us</h4>
+                        <p class="mt-3">
+                            <a class="text-decoration-none text-light" href="#">
+                                <i class="fa-brands text-light fa-facebook"></i> : Facebook
+                            </a>
+                        </p>
+                        <p>
+                            <a class="text-decoration-none text-light" href="#">
+                                <i class="fa-brands text-light fa-youtube"></i> : Youtube
+                            </a>
+                        </p>
+                        <p>
+                            <a class="text-decoration-none text-light" href="#">
+                                <i class="fa-brands text-light fa-whatsapp"></i> : Whatsapp
+                            </a>
+                        </p>
+                        <p>
+                            <a class="text-decoration-none text-light" href="#">
+                                <i class="fa-brands text-light fa-telegram"></i> : Telegram Channel
+                            </a>
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 m-auto p-1">
+                    <div class="card bg-dark border-0 text-light text-start p-4">
+                        <h4 class="text-uppercase text-light">CATEGORIES</h4>
+                        <a class="text-decoration-none text-light" href="#">Hobby</a>
+                        <a class="text-decoration-none text-light" href="#">Gaming</a>
+                        <a class="text-decoration-none text-light" href="#">Hiking</a>
+                        <a class="text-decoration-none text-light" href="#">Eating</a>
+                        <a class="text-decoration-none text-light" href="#">Health</a>
+                        <a class="text-decoration-none text-light" href="#">Jogging</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 m-auto p-1">
+                    <div class="card bg-dark border-0 text-light text-start p-4">
+                        <h4 class="text-uppercase text-light">Support</h4>
+                        <a class="text-decoration-none text-light" href="#">Contact</a>
+                        <a class="text-decoration-none text-light" href="#">FAQs</a>
+                        <a class="text-decoration-none text-light" href="#">Terms</a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- top-footer -->   
+    </div><!-- /.container-fluid footer -->
+
+    <div class="bottom-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 p-2">
+                    <p class="text-center text-light">© <span class="text-warning">Your Site Name</span>. All Rights Reserved. Design by <span class="text-warning">Cuet.lk</span></p>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.container-fluid bottom-footer -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
